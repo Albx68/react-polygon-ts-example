@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.polygon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.slider-container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}

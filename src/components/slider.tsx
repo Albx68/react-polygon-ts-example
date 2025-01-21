@@ -18,7 +18,6 @@ const Slider: React.FC<SliderProps> = ({ min, max, value, onChange }) => {
         onChange={(e) => onChange(Number(e.target.value))}
         style={{ width: "300px", margin: "10px 0" }}
       />
-      <div>Value: {value}</div>
     </div>
   );
 };
