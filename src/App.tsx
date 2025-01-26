@@ -17,7 +17,9 @@ function App() {
             size={40} // Incremental size variation
             fill={`hsl(${(idx + 1) * 40}, 70%, 60%)`} // Dynamic color
             stroke={`hsl(${(idx + 1) * 40}, 70%, 20%)`}
-            strokeWidth={2}
+            strokeWidth={10}
+            strokeLinecap='round'
+            strokeLinejoin='round'
           />
         ))}
       </div>
